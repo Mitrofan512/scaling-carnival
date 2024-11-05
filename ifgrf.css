@@ -1,0 +1,131 @@
+
+body {
+    background-color: rgb(156, 194, 204);
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.hed {
+display: flex;
+align-items: center ;
+justify-content: space-between;
+background-color: rgb(113, 181, 244);
+
+
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-left: 10px ;
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+color: aliceblue;
+font-size: larger;
+font-weight: bold;
+font-family: sans-serif;
+}
+
+.mmm {
+    margin-left: 10px;
+    height: 30px;
+    padding: 10px;
+    font-size: 80px;
+}
+
+.main {
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.foto {
+    height: 300px;
+    padding-left: 0px;
+    border-radius: 30px;
+}
+
+.dhn {
+    margin-left: 15px;
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.p1 {
+    font-size: 18px;
+}
+
+.gallery {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+h2 {
+    text-align: center;
+    }
+
+.items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-g {
+
+    width: 300px;
+    border-radius: 30px;
+}
+
+.foottt {
+   align-items: center;
+   text-align:center ;
+    background-color: rgb(6, 6, 67);
+    color: aliceblue;
+}
+.p2 {
+   
+    padding: 30px;
+}
+.tvvr {
+
+    width: 15px;
+}
+
+.p3tvvr {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    } 
+    .dhn {
+        text-align:center;
+    }
+    .items {
+        flex-direction: column;
+        align-items: center;
+    }
+    .f-g {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 940px) {
+    .f-g {
+        width: 240px;
+
+    }
+}
